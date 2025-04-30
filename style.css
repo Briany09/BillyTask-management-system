@@ -1,0 +1,165 @@
+/* Base */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fb;
+    margin: 0;
+    padding-bottom: 60px;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.07);
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  /* Navigation */
+  .nav {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .nav a {
+    background: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .nav a:hover {
+    background: #2980b9;
+  }
+  
+  /* Table */
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  th {
+    background: #ecf0f1;
+    color: #34495e;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  tr:hover {
+    background: #eef6fc;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .edit {
+    background: #27ae60;
+    color: white;
+  }
+  
+  .delete {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  /* Footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .form-box label {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .form-box input[type="text"],
+  .form-box textarea,
+  .form-box select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .form-box select {
+    background-color: #fff;
+  }
+  
+  .form-box .submit {
+    background: #27ae60;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .form-box .submit:hover {
+    background: #1e8449;
+  }
+  
+  .error {
+    background: #fce4e4;
+    color: #c0392b;
+    padding: 10px 15px;
+    border-left: 4px solid #c0392b;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
